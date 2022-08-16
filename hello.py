@@ -5,7 +5,7 @@ app = Sanic("welcome")
 
 @app.route('/')
 async def test(request):
-    return json({'hello': 'api'})
+    return json({'hello': 'api again'})
 
 if __name__ == '__main__':
     app.run()
